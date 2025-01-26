@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.header .logo h1{
+    margin: 10px 15px;
+    font-size: 2rem;
+}
+.header nav ul{
+    display: flex;
+    color: #fff;
+    margin: 10px 15px;
+}
+.header nav ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    color: #fff;
+}
+.header nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.header .button{
+    margin-top: 14px;
+    margin-left: 40px;
+}
+.pages{
+    height: 100vh;
+}
+#contact{
+    height: 70vh;
+}
+section h3{
+    padding-top: 250px;
+    padding-left: 200px;
+}
